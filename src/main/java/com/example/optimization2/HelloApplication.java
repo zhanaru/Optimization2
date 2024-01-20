@@ -9,12 +9,16 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         // Загрузка фотографии
-        Image backgroundImage = new Image("C:\\Users\\Администратор\\Desktop\\Optimization2\\src\\main\\java\\pictures\\background.jpg");
+        //ошибка обьявлять надо неявно, у другого человека не запуститься (ты обьявляешь явно)
+        //Image backgroundImage = new Image("C:\\Users\\Администратор\\Desktop\\Optimization2\\src\\main\\java\\pictures\\background.jpg");
+        //Вот как нужно. Это обьявление неявное
+        Image backgroundImage = new Image(getClass().getResourceAsStream("/com/example/optimization2/background.jpg"));
         ImageView backgroundImageView = new ImageView(backgroundImage);
 
         // Загрузка FXML
@@ -25,10 +29,10 @@ public class HelloApplication extends Application {
         root.getChildren().addAll(backgroundImageView, fxmlLoader.load());
 
         // Создание сцены с корневым контейнером
-        Scene scene = new Scene(root, 1920, 1080); // Размеры вашего экрана
+        Scene scene = new Scene(root); // Размеры вашего экрана
 
         stage.setScene(scene);
-        stage.setFullScreen(true); // Установка полноэкранного режима
+        //stage.setFullScreen(true); // Установка полноэкранного режима
         stage.show();
     }
 
