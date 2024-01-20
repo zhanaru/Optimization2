@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloApplication.java" afterDir="false" />
+    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="Комменты">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/topBar/TopBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/CSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/app-View.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704988691026</updated>
-      <workItem from="1705739647028" duration="7722000" />
+      <workItem from="1705739647028" duration="10600000" />
     </task>
     <task id="LOCAL-00001" summary="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
       <created>1705741034026</created>
@@ -83,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705766162814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Комменты">
+      <created>1705766543122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705766543122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создана страница с full-window" />
     <MESSAGE value="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри" />
+    <MESSAGE value="Комменты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Комменты" />
   </component>
 </project>
