@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="Создана страница с full-window">
+    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pictures/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/background.jpg" afterDir="false" />
@@ -50,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\IdeaProjects\Optimization2\src\main\resources\com\example\optimization2" />
       <recent name="C:\Users\Администратор\Desktop\Optimization2\src\main\java\pictures" />
     </key>
   </component>
@@ -61,8 +62,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704988691026</updated>
-      <workItem from="1705739647028" duration="1027000" />
+      <workItem from="1705739647028" duration="1391000" />
     </task>
+    <task id="LOCAL-00001" summary="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
+      <created>1705741034026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705741034026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создана страница с full-window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создана страница с full-window" />
+    <MESSAGE value="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри" />
   </component>
 </project>
