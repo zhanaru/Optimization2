@@ -10,6 +10,7 @@ module com.example.optimization2 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires org.apache.poi.ooxml;
 
     opens com.example.optimization2 to javafx.fxml;
     exports com.example.optimization2;

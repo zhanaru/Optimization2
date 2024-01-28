@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="Добавлен дизайн кнопок.">
+    <list default="true" id="0335c302-71c0-4895-a731-3f4c50b18824" name="Changes" comment="TopBar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/dragAndDrop/CellWithDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/optimization2/topBar/TopBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/optimization2/topBar/TopBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/app-View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/optimization2/app-View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -28,13 +30,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2aod6Jcb7tSWJ17uNscr93v170u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,14 +46,23 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\IdeaProjects\Optimization2\src\main\resources\com\example\optimization2" />
       <recent name="C:\Users\Администратор\Desktop\Optimization2\src\main\java\pictures" />
     </key>
   </component>
@@ -70,12 +74,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704988691026</updated>
+      <workItem from="1705739647028" duration="10600000" />
+      <workItem from="1706454715430" duration="4050000" />
     </task>
+    <task id="LOCAL-00001" summary="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
+      <created>1705741034026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705741034026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
+      <created>1705741072212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705741072212</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри">
+      <created>1705766162814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705766162814</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Комменты">
+      <created>1705766543122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705766543122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создана страница с full-window" />
-    <MESSAGE value="Добавлен дизайн кнопок." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен дизайн кнопок." />
+    <MESSAGE value="Обновление фотографии. Неправильное отображение пути и не надо создавать жесткие ограничения для экрана 1920 на 1080 не у всех может быть такой экран, следовательно модет быть сдвиг всех элементов внутри" />
+    <MESSAGE value="Комменты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Комменты" />
   </component>
 </project>
