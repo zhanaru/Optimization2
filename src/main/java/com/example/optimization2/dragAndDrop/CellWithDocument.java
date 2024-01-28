@@ -12,8 +12,8 @@ import java.nio.file.Paths;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
-
-import java.io.FileInputStream;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 
 public class CellWithDocument extends VBox {
     private TextArea textArea;
@@ -59,6 +59,12 @@ public class CellWithDocument extends VBox {
                         });
                         textArea.setText(excelText.toString());
                         fis.close();
+                    } else if (fileName.endsWith(".pdf")) {
+                        PDDocument document = PDDocument.load(file);
+                        PDFTextStripper stripper = new PDFTextStripper();
+                        String text = stripper.getText(document);
+                        textArea.setText(text);
+                        document.close();
                     }
                 } catch (IOException e) {
                     e.printStackTrace();

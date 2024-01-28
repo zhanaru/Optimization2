@@ -11,6 +11,7 @@ module com.example.optimization2 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires org.apache.poi.ooxml;
+    requires org.apache.pdfbox;
 
     opens com.example.optimization2 to javafx.fxml;
     exports com.example.optimization2;
