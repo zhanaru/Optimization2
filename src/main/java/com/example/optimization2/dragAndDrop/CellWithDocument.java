@@ -1,6 +1,7 @@
 package com.example.optimization2.dragAndDrop;
 
 import javafx.scene.input.TransferMode;
+import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.TextArea;
 import java.io.File;
@@ -20,10 +21,15 @@ public class CellWithDocument extends VBox {
 
     public CellWithDocument() {
         this.setPrefSize(200, 200);
-        this.setStyle("-fx-border-color: black; -fx-border-style: dashed;");
+        this.setStyle(
+                "-fx-border-color: Gray; " +
+                        "-fx-border-style: dashed;" +
+                        "-fx-border-width: 2;"
+        );
 
         textArea = new TextArea();
         textArea.setEditable(false);
+        VBox.setVgrow(textArea, Priority.ALWAYS);
         this.getChildren().add(textArea); // Добавление TextArea в VBox
 
         this.setOnDragOver(event -> {

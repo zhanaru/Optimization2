@@ -12,11 +12,11 @@ public class TopBar extends HBox {
 
     public TopBar() {
         double screenHeight = Screen.getPrimary().getBounds().getHeight();
-        double topBarHeight = screenHeight * 0.2;
+        double topBarHeight = screenHeight * 0.15;
 
         this.setAlignment(Pos.TOP_LEFT);
         this.setSpacing(20);
-        this.setStyle("-fx-background-color: black;");
+        this.setStyle("-fx-background-color: Gray;");
         this.setPrefHeight(topBarHeight);
 
         Button button1 = createStyledButton("БиОТ");
